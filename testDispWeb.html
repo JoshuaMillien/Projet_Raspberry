@@ -10,6 +10,8 @@
 
 
   <title>Un exemple</title>
+  <script src="/socket.io/socket.io.js"></script>
+
 
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
@@ -18,11 +20,25 @@
 
 <body>
 
-
   <!-- script pour le debut du chargement -->
 
-  <script type="text/javascript" src = "testDispWeb.js">
+  <script src="socketProject.js"></script>
+  <script>
+
+      var socket = io.connect('http://localhost:8080');
+
   </script>
+  <script>
+      socket.on('message', function(message) {
+          alert('Le serveur a un message pour vous : ' + message);
+      })
+  </script>
+
+  <script type="text/javascript" src="testDispWeb.js">
+
+  </script>
+
+
 </body>
 
 
