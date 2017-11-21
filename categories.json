@@ -1,0 +1,15 @@
+{
+  "categories" :
+    {"evenements":
+      ["https://www.lgi2a.univ-artois.fr/spip/fr/evenements/prix-du-meilleur-papier-doctorant-a-lfa-2017-pour-nathalie-helal-et-pauline",
+       "https://www.lgi2a.univ-artois.fr/spip/fr/evenements/gsc-2018-4th-international-conference-on-green-supply-chain",
+       "https://www.lgi2a.univ-artois.fr/spip/fr/evenements/prix-du-meilleur-poster-pour-nathalie-helal-jrda-2017"
+      ],
+
+      "theses" :
+      ["https://www.lgi2a.univ-artois.fr/spip/fr/travaux/these-de-yu-lin-huang",
+       "https://www.lgi2a.univ-artois.fr/spip/fr/travaux/these-de-siti-mutmainah",
+       "https://www.lgi2a.univ-artois.fr/spip/fr/travaux/these-de-cecilia-daquin"
+      ]
+    }
+}
