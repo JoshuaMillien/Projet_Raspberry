@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Cliquez "Ouvrir", pour ouvrir un onglet moodle aprés 2 secondes.</p>
+<p>Cliquez "Changer", pour ouvrir google aprés 2 secondes. Mais on perd la page d'origine et son script.</p>
+
+<button onclick="setTimeout(onglet, 2000);">Ouvrir</button>
+<button onclick="setTimeout(change, 2000);">Changer</button>
+
+<script>
+    function onglet() {
+        window.open("http://foad.univ-artois.fr/moodle2013/");
+    }
+    function change() {
+        window.location.href = "http://www.google.com";
+    }
+</script>
+
+</body>
+</html>
