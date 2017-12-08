@@ -1,15 +1,16 @@
-var open = require ('openurl');
+var open = require ('open');
 
 
-// open.open(url) permet de lancer ce qu'on recupère dans un nouvel onglet
+// open(url) permet de lancer ce qu'on recupère dans un nouvel onglet
 var fs = require("fs");
 var contents = fs.readFileSync('categories.json','utf8');
 var obj = JSON.parse(contents);
 
+// Lecture du fichier de configuration
 var fileConf = fs.readFileSync('config.json','utf8');
 var config = JSON.parse(fileConf);
 
-function alterner(cptT,cptE,s){      //
+function alterner(cptT,cptE,s){      //Focntion pour afficher evenements + theses
     setInterval(function(){
         if ((cptE>s) && (cptT>s))
             cptE=cptT=0;          // si n dépasse le nombre de pages que l'on veut
