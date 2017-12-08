@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Lancer le programme
 
-You can use the [editor on GitHub](https://github.com/JoshuaMillien/Projet_Raspberry/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Pour lancer le programme, lancer la commande "node Display.js". Le défilement devrait se réaliser à l'intérieur de la console.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Installation de NodeJs
 
-### Markdown
+Pour installer NodeJs sur Raspbian ou ubuntu, réaliser ces commandes : 
+"curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"  
+puis,   
+"sudo apt-get install -y nodejs".
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Module open
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JoshuaMillien/Projet_Raspberry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Pour ouvrir une fenêtre avec NodeJs, nous avons besoin du module open qui n'est pas toujours présent.
+Si vous ne l'avez pas, lancer la commande "npm install open --save".
