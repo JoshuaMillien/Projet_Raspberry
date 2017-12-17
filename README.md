@@ -28,8 +28,8 @@ Il inclut les modules fs(FileSystem) permettant de lire un fichier à part et le
 ### testSock.js
 Ce fichier importe également différents modules. Le module http permettant de créer le serveur localhost dans la page index.html.  
 Le module fs est encore une fois importé pour lire le fichier index.html.  
-Ensuite, nous trouvons le module socket.io permettant de gèrer le serveur.  
-Lorsqu'un client se connecte au serveur, le ficher Display.js ( importé au début ) s'exécute.
+Ensuite, nous trouvons le module socket.io permettant de gérer le serveur.  
+Lorsqu'un client se connecte au serveur, le fichier Display.js ( importé au début ) s'exécute.
 
 ### Fichier de configuration : config.json
 
